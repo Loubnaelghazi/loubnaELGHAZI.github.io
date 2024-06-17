@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About - Me</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="manifest" href="site.webmanifest">
+    <style>
+        .education {
+            margin-top: 20px;
+        }
+
+        .education h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: #f0f0f0;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+        }
+
+        .timeline-item {
+            padding: 20px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+        }
+
+        .timeline-item::after {
+            content: ' ';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -17px;
+            background-color: white;
+            border: 4px solid #f0f0f0;
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .timeline-item.left {
+            left: 0;
+        }
+
+        .timeline-item.right {
+            left: 50%;
+        }
+
+        .timeline-item.right::after {
+            left: -16px;
+        }
+
+        .timeline-content {
+            padding: 20px 30px;
+            background-color: white;
+            position: relative;
+            border-radius: 6px;
+        }
+
+        .timeline-content h3 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+
+        .timeline-content p {
+            margin: 10px 0;
+        }
+
+        .timeline-content .date {
+            font-size: 14px;
+            color: #999;
+        }
+
+        .timeline-content .logo {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+
+     .contact-info, .soft-skills, .technical-skills {
+            margin-bottom: 40px;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+    .soft-skills ul, .technical-skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .soft-skills ul li, .technical-skills ul li {
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
+            padding: 15px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="row s-header__inner width-sixteen-col">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="" alt="HOME">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">
+    
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a href="about.html">About Me</a></li>
+                        <li><a href="services.html">My Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->
+
+                    <div class="s-header__contact">
+                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
+                    </div> <!-- s-header__contact -->
+    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+
+        </header> <!-- end s-header -->
+
+
+        <!-- # site main content
+        ================================================== -->
+        <section id="content" class="s-content">
+
+               <section class="s-pageheader pageheader">
+                    <div class="row">
+                        <div class="column xl-12">
+                            <h1 class="page-title">
+                                <span class="page-title__small-type text-pretitle">About </span>
+                                About Me 
+                            </h1>
+                            
+                        </div>
+                    </div>
+               </section> <!-- end pageheader --> 
+
+               <section class="s-pagecontent pagecontent">
+
+                    <div class="row width-narrower pagemain">
+                        <div class="column xl-12"> 
+
+                            <h2>Personnal contact-info</h2>
+                            
+            <div class="contact-info">
+                <p>
+                    <i class="fas fa-phone"></i> <strong>Phone:</strong> <a href="#">0666430478</a><br>
+                    <i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:loubna.elghazi1@etu.uae.ac.ma">loubna.elghazi1@etu.uae.ac.ma</a><br>
+                    <i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> Tangier, Morocco
+                </p>
+            </div>
+
+        <h2>Soft Skills</h2>
+          
+            <div class="soft-skills">
+             
+                <ul>
+                    <li><i class="fas fa-brain"></i> Critical Thinking</li>
+                    <li><i class="fas fa-flask"></i> Experimentation</li>
+                    <li><i class="fas fa-users"></i> Team Collaboration</li>
+                    <li><i class="fas fa-chart-line"></i> Problem Solving</li>
+                    <li><i class="fas fa-comments"></i> Communication</li>
+                    <li><i class="fas fa-chess"></i> Strategic Planning</li>
+                     <li><i class="fas fa-code"></i> Coding Skills</li>
+                    <li><i class="fas fa-desktop"></i> UI/UX Design</li>
+                    <li><i class="fas fa-users"></i> Team Collaboration</li>
+                    <li><i class="fas fa-comments"></i> Client Communication</li>
+                    <li><i class="fas fa-lightbulb"></i> Creativity</li>
+                    <li><i class="fas fa-book"></i> Continuous Learning</li>
+                </ul>
+                 </div>
+                           
+<h2 class="u-add-bottom">Technical Skills</h2>
+
+<div class="grid-list-items list-items">
+    <div class="grid-list-items__item list-items__item u-remove-bottom">
+        <div class="list-items__item-header">
+            <h6 class="list-items__item-small-title">
+                <i class="fab fa-python"></i> Python
+            </h6>
+        </div>
+        <p>
+            Experienced in Python programming for data analysis, web development, and automation.
+        </p>
+    </div>
+    <div class="grid-list-items__item list-items__item u-remove-bottom">
+        <div class="list-items__item-header">
+            <h6 class="list-items__item-small-title">
+                <i class="fab fa-java"></i> Java
+            </h6>
+        </div>
+        <p>
+            Proficient in Java for building desktop applications.
+        </p>
+    </div>
+    <div class="grid-list-items__item list-items__item u-remove-bottom">
+        <div class="list-items__item-header">
+            <h6 class="list-items__item-small-title">
+                <i class="fas fa-brain"></i> Machine Learning
+            </h6>
+        </div>
+        <p>
+            Skilled in machine learning algorithms and libraries such as scikit-learn and PyTorch.
+        </p>
+    </div>
+    <div class="grid-list-items__item list-items__item u-remove-bottom">
+        <div class="list-items__item-header">
+            <h6 class="list-items__item-small-title">
+                <i class="fas fa-robot"></i> NLP
+            </h6>
+        </div>
+        <p>
+            Expertise in Natural Language Processing techniques and tools.
+        </p>
+    </div>
+    <div class="grid-list-items__item list-items__item u-remove-bottom">
+        <div class="list-items__item-header">
+            <h6 class="list-items__item-small-title">
+                <i class="fas fa-project-diagram"></i> RAG
+            </h6>
+        </div>
+        <p>
+            Proficient in Retrieval-Augmented Generation models for enhanced AI solutions.
+        </p>
+    </div>
+ 
+    <div class="grid-list-items__item list-items__item u-remove-bottom">
+        <div class="list-items__item-header">
+            <h6 class="list-items__item-small-title">
+                <i class="fab fa-react"></i> React
+            </h6>
+        </div>
+        <p>
+            Experience in building interactive UIs with React.js.
+        </p>
+    </div>
+    <div class="grid-list-items__item list-items__item u-remove-bottom">
+        <div class="list-items__item-header">
+            <h6 class="list-items__item-small-title">
+                <i class="fab fa-html5"></i> HTML5
+            </h6>
+        </div>
+        <p>
+            Proficient in HTML5 for structuring and presenting web content.
+        </p>
+    </div>
+    <div class="grid-list-items__item list-items__item u-remove-bottom">
+        <div class="list-items__item-header">
+            <h6 class="list-items__item-small-title">
+                <i class="fab fa-css3-alt"></i> CSS3
+            </h6>
+        </div>
+        <p>
+            Skilled in CSS3 for designing responsive and visually appealing web pages.
+        </p>
+    </div>
+    <div class="grid-list-items__item list-items__item u-remove-bottom">
+        <div class="list-items__item-header">
+            <h6 class="list-items__item-small-title">
+                <i class="fab fa-github"></i> Tailwind CSS
+            </h6>
+        </div>
+        <p>
+            Experience with Tailwind CSS for utility-first CSS framework.
+        </p>
+    </div>
+<div class="grid-list-items__item list-items__item u-remove-bottom">
+    <div class="list-items__item-header">
+        <h6 class="list-items__item-small-title">
+            Fine Tuning
+        </h6>
+    </div>
+    <p>
+        Skilled in fine tuning machine learning models for enhanced performance and accuracy.
+    </p>
+</div>
+
+    <div class="grid-list-items__item list-items__item u-remove-bottom">
+        <div class="list-items__item-header">
+            <h6 class="list-items__item-small-title">
+                <i class="fas fa-database"></i> MySQL
+            </h6>
+        </div>
+        <p>
+            Proficient in MySQL for database management and operations.
+        </p>
+    </div>
+    <div class="grid-list-items__item list-items__item u-remove-bottom">
+        <div class="list-items__item-header">
+            <h6 class="list-items__item-small-title">
+                FastAPI
+            </h6>
+        </div>
+        <p>
+            Skilled in using FastAPI for building fast and scalable APIs.
+        </p>
+    </div>
+
+    <div class="grid-list-items__item list-items__item u-remove-bottom">
+        <div class="list-items__item-header">
+            <h6 class="list-items__item-small-title">
+                Spark
+            </h6>
+        </div>
+        <p>
+            Experience with big data processing using Apache Spark.
+        </p>
+    </div>
+    <div class="grid-list-items__item list-items__item u-remove-bottom">
+        <div class="list-items__item-header">
+            <h6 class="list-items__item-small-title">
+                Kafka
+            </h6>
+        </div>
+        <p>
+            Skilled in using Apache Kafka for real-time data streaming.
+        </p>
+    </div>
+</div>
+
+
+<h2>Education & Certificates </h2>
+ <div class="education">
+  <div class="grid-list-items__item list-items__item u-remove-bottom">
+    <div class="list-items__item-header">
+        <h6 class="list-items__item-small-title">
+            Certificate: Supervised Machine Learning
+        </h6>
+    </div>
+    <p>
+        <a href="https://coursera.org/share/58f44e6be76fd2909995bec20e4d3c6e" target="_blank">View my certificate for Supervised Machine Learning: Regression and Classification on Coursera</a>
+    </p>
+</div>      
+    
+                            <div class="timeline">
+                                <div class="timeline-item left">
+                                    <div class="timeline-content">
+                                        <h3>Master Degree in Data Science and Artificial Intelligence</h3>
+                                        <p>ABDELMALEK SAADI University -Tangier</p>
+                                        <p class="date">2023 - Current</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item right">
+                                    <div class="timeline-content">
+                                        <h3>License Degree in Computer Science</h3>
+                                        <p>ABDELMALEK SAADI University -Tangier</p>
+                                        <p class="date">2020 -  2023</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item left">
+                                    <div class="timeline-content">
+                                        <h3>Baccalaureate Degree in Science in Physics-chemistry </h3>
+                                        <p>Arressala Groupe Scolaire -Nador</p>
+                                        <p class="date">2019 -  2020</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+</div> <!-- end grid-block-->
+</div> <!-- end pagemain -->
+
+</section> <!-- pagecontent -->
+
+             
+
+</section> <!-- s-content-->
+
+
+
+
+        <!-- # footer 
+        ================================================== -->
+       <footer class="s-footer">
+            <div class="row s-footer__content">
+                <div class="column xl-6 lg-6 md-12 s-footer__block s-footer__about">                    
+                    <h3>About Me </h3>
+                    <p>
+                   I am Loubna El Ghazi, a Master's student specializing in AI and Data Science at the Faculty of Science and Technologies in Tangier. <br/>With a strong foundation in front-end development and data science, I am passionate about leveraging technology to solve complex problems and create intuitive and user-friendly applications.
+                    </p>               
+                </div>                
+                <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
+                    <h3>Site Links</h3>
+                    <ul class="link-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">My Projects</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="column xl-3 lg-6 md-12 tab-12 s-footer__block s-footer__newsletter">
+                    <h3>Newsletter</h3>
+
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="mc-form">
+                            <input type="email" name="EMAIL" id="mce-EMAIL" class="u-fullwidth text-center" placeholder="Your Email Address" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
+                            <input type="submit" name="subscribe" value="Subscribe" class="btn btn--primary btn--small u-fullwidth">
+                            <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdb7b577e41181934ed6a6a44_9a91cfe7b3" tabindex="-1" value=""></div> -->
+                            <div class="mc-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>    
+            
+            <div class="row s-footer__bottom">
+                <div class="column xl-6 lg-12">
+                    <ul class="s-footer__social social-list">
+    <li>
+    <a href="https://github.com/Loubnaelghazi" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+            <path d="M12 0c-6.63 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.089-.744.083-.729.083-.729 1.205.085 1.84 1.236 1.84 1.236 1.07 1.834 2.807 1.304 3.492.997.108-.774.418-1.304.762-1.604-2.665-.305-5.466-1.333-5.466-5.93 0-1.31.467-2.381 1.235-3.221-.123-.305-.535-1.532.117-3.192 0 0 1.008-.322 3.3 1.23.96-.267 1.98-.4 3-.405 1.02.005 2.04.138 3 .405 2.29-1.552 3.297-1.23 3.297-1.23.653 1.66.241 2.887.118 3.192.77.84 1.233 1.911 1.233 3.221 0 4.61-2.803 5.625-5.475 5.92.43.372.824 1.102.824 2.222 0 1.604-.015 2.896-.015 3.292 0 .32.217.694.825.577 4.765-1.585 8.2-6.084 8.2-11.385 0-6.627-5.373-12-12-12z"/>
+        </svg>
+        <span class="u-screen-reader-text">GitHub</span>
+    </a>
+    </li>
+
+    <li>
+    <a href="https://www.linkedin.com/in/loubna-el-ghazi-030878254/" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11.839 20.5h-2.653v-11.042h2.653v11.042zm-1.324-12.617c-.851 0-1.539-.688-1.539-1.538s.688-1.538 1.539-1.538 1.539.688 1.539 1.538-.688 1.538-1.539 1.538zm14.163 12.617h-2.652v-5.618c0-1.341-.025-3.065-1.865-3.065-1.867 0-2.153 1.458-2.153 2.962v5.721h-2.653v-11.042h2.549v1.508h.036c.354-.668 1.222-1.373 2.516-1.373 2.689 0 3.184 1.771 3.184 4.075v6.832z"/>
+        </svg>
+        <span class="u-screen-reader-text">LinkedIn</span>
+    </a>
+    </li>
+                    </ul> <!-- end s-footer__social -->
+                </div>
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>© Copyright 2024</span> 
+                    </p>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                    </a>
+                </div> <!-- end ss-go-top -->
+            </div>
+            
+        </footer> <!-- end s-footer -->
+    </div> <!-- end page-wrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
